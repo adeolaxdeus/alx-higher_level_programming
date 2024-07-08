@@ -12,4 +12,5 @@ def main():
         print("0 arguments.")
 
 
-main()
+if __name__ == "__main__":
+    main()
