@@ -1,6 +1,3 @@
 #!/usr/bin/python3
-for char in range(97, 123):
-    if char == 101 or char == 113:
-        continue
-    else:
-        print("{:c}".format(char), end="")
+print("{}".format(''.join(chr(c) for c in range(97, 123) \
+                  if chr(c) not in 'eq')), end="")
