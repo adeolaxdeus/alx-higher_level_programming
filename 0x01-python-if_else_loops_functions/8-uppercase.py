@@ -1,9 +1,9 @@
-#!/usr/bin/python3
+#!/usr/bin/env bash
 def uppercase(str):
-    result = ""
+    string = ""
     for char in str:
-        if 'a' <= char <= 'z':
-            result += chr(ord(char) - 32)
+        if ('a' <= char <= 'z'):
+            string  += chr(ord(char) - 32)
         else:
-            result += char
-    print("{}".format(result))
+            string += char
+    print(string)
