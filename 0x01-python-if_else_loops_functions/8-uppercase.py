@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/python3
 def uppercase(str):
     string = ""
     for char in str:
